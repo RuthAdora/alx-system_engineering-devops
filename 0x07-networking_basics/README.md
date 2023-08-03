@@ -1,8 +1,6 @@
 _0x07. Networking basics #0
 ==========================
 
--   By Dev Nderitu
--   Weight: 1
 
 
 Resources

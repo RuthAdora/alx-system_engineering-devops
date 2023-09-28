@@ -25,3 +25,4 @@ sed -i '/$server_ip/d' ~/.ssh/known_hosts
 # Transfer the file to the server
 scp -o StrictHostKeyChecking=no -i $ssh_key_path $file_path $username@$server_ip:~/
 
+

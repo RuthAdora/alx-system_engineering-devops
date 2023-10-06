@@ -2,6 +2,6 @@
 # debugging nginx port 80
 rm /etc/nginx/sites-enabled/default
 # configure ngnix
-In -s /etc/nginx/site-available/default/etc/nginx/site-enabled/default
+ln -s /etc/nginx/site-available/default/etc/nginx/site-enabled/default
 # restart nginix
 service nginx restart
